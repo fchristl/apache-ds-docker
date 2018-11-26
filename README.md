@@ -6,6 +6,10 @@ This docker image contains an Apache Directory Server instance.
 - 10389: default LDAP port
 - 10636: LDAPs port
 
+## Login
+
+The default ADS admin user (uid=admin,ou=system) is available. The default password is secret.
+
 ## Build
 
 docker build -t apache-ds .

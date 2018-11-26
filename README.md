@@ -1,5 +1,5 @@
 # Apache Directory Server Docker Image
-This Dockerfile generates a self-contained Apache Directory Server instance. 
+This docker image contains an Apache Directory Server instance. 
 
 ## Exposed Ports
 

@@ -16,7 +16,7 @@ docker build -t apache-ds .
 
 ## Run
 
-docker run -p 389:10389 -p 636:10636 apache-ds
+docker run -p 389:10389 -p 636:10636 fchristl/apache-ds
 
 ## Enable SSL
 

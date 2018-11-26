@@ -18,6 +18,9 @@ docker build -t apache-ds .
 
 docker run -p 389:10389 -p 636:10636 fchristl/apache-ds
 
+## Persist Data
+Mount a volume to `/var/lib/apacheds/instances`.
+
 ## Enable SSL
 
 A keystore to enable SSL is included out of the box. To enable it, follow the steps
